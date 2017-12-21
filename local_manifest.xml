@@ -3,6 +3,7 @@
 
     <!-- device tree -->	
     <project path="device/huawei/diego" name="Huawei-msm8937/android_device_huawei_diego" remote="github" revision="cm-13.0" />
+    <project path="device/huawei/msm8937-common" name="Huawei-msm8937/android_device_huawei_msm8937-common" remote="github" revision="cm-13.0" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-13.0" />
     <!-- kernel -->
     <project path="kernel/huawei/msm8937" name="Huawei-msm8937/android_kernel_huawei_msm8937" remote="github" revision="cm-13.0" />
