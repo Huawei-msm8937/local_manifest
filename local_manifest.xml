@@ -3,12 +3,11 @@
 
     <!-- device tree -->	
     <project path="device/huawei/diego" name="Huawei-msm8937/android_device_huawei_diego" remote="github" revision="cm-13.0" />
-    <project path="device/huawei/msm8937-common" name="Huawei-msm8937/android_device_huawei_msm8937-common" remote="github" revision="cm-13.0" />
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-13.0" />
     <!-- kernel -->
     <project path="kernel/huawei/msm8937" name="Huawei-msm8937/android_kernel_huawei_msm8937" remote="github" revision="cm-13.0" />
     <!-- vendor -->
-    <project path="vendor/huawei" name="Huawei-msm8937/proprietary_vendor_huawei" remote="github" revision="cm-13.0" />
+    <project path="vendor/huawei/diego" name="Huawei-msm8937/android_vendor_huawei_diego" remote="github" revision="cm-13.0" />
     <!--extras-->		
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-13.0" />
     <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" />
