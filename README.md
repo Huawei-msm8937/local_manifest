@@ -1,19 +1,7 @@
-LineageOS For Huawei P9 Lite Smart codename ("diego")
+TWRP For Huawei P9 Lite Smart codename ("diego")
 ==========================================
 
-Initializing:
-
-First, create a folder to hold the source code: 
-
-	mkdir ~/lineage13
-
-Next, naviate into that new directory via the terminal:
-
-	cd ~/lineage13
-
-To initialize your local repository using the Turbo ROM trees, use this command:
-
-	repo init -u git://github.com/LineageOS/android.git -b cm-13.0
+Use bootable-recovery from OmniRom
 
 Also add the local manifests:
 
@@ -36,13 +24,10 @@ First:
 
 Second:
 
-	$ echo "export USE_CCACHE=1" >> ~/.bashrc
-	$ prebuilts/misc/linux-x86/ccache/ccache -M 30G
-
-Third:
-
+	make clean && make clobber
 	. build/envsetup.sh
-	brunch diego
+	lunch lineage_diego-userdebug
+	make recoveryimage
 
 -------------
  
