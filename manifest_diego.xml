@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- device tree -->	
-    <project path="device/huawei/diego" name="Huawei-msm8937/android_device_huawei_diego" remote="github" revision="cm-13.0" />
-    <project path="device/cyanogen/msm8937-common" name="Huawei-msm8937/android_device_cyanogen_msm8937-common" remote="github" revision="cm-13.0" />
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-13.0" />
-    <!-- kernel -->
-    <project path="kernel/huawei/msm8937" name="Huawei-msm8937/android_kernel_huawei_msm8937" remote="github" revision="cm-13.0" />
-    <!-- vendor -->
-    <project path="vendor/huawei" name="Huawei-msm8937/proprietary_vendor_huawei" remote="github" revision="cm-13.0" />
-    <!--extras-->		
-    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-13.0" />
-    <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" />
+    <!--  -->	
+    <project path="device/huawei/diego-twrp" name="Huawei-msm8937/android_device_huawei_diego-twrp" remote="github" revision="master" />
+    <project path="external/f2fs-tools" name="Huawei-msm8937/android_external_f2fs-tools" remote="github" revision="android-6.0" />
     
 </manifest>
